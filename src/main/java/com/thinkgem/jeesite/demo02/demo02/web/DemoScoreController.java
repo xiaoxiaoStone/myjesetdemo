@@ -31,7 +31,7 @@ import com.thinkgem.jeesite.demo02.demo02.service.DemoScoreService;
 @Controller
 @RequestMapping(value = "${adminPath}/demo02/demoScore")
 public class DemoScoreController extends BaseController {
-	private  int i;
+	private  int a;
 
 	@Autowired
 	private DemoScoreService demoScoreService;
