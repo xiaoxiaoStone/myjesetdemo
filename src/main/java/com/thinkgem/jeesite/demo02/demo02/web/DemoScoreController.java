@@ -22,6 +22,7 @@ import com.thinkgem.jeesite.common.utils.StringUtils;
 import com.thinkgem.jeesite.demo02.demo02.entity.DemoScore;
 import com.thinkgem.jeesite.demo02.demo02.service.DemoScoreService;
 
+
 /**
  * 单表生成Controller
  * @author xx
@@ -30,6 +31,7 @@ import com.thinkgem.jeesite.demo02.demo02.service.DemoScoreService;
 @Controller
 @RequestMapping(value = "${adminPath}/demo02/demoScore")
 public class DemoScoreController extends BaseController {
+	private  int i;
 
 	@Autowired
 	private DemoScoreService demoScoreService;

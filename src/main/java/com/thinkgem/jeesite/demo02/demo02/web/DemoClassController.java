@@ -28,6 +28,7 @@ import com.thinkgem.jeesite.demo02.demo02.service.DemoClassService;
 import java.util.List;
 import java.util.Map;
 
+
 /**
  * 多表生成Controller
  * @author xx
@@ -92,6 +93,8 @@ public class DemoClassController extends BaseController {
 
 		DemoClass demoClass=new DemoClass();
 		demoClass.setName(name);
+
+
 
 		List<DemoClass> list = demoClassService.findList(demoClass);
 		for (int i=0; i<list.size(); i++){
